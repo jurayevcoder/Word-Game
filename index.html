@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./amal.css" />
+    <title>Word Game</title>
+  </head>
+  <body>
+    <div class="glavni">5 points are awarded for each correct word!</div>
+
+    <div class="bal_container">
+      <div class="user-score">
+      <img class="user_img" width="30" height="30" src="./user-solid.svg" alt="">
+      <p class="f_bal_monitor" id="fball">0</p>
+    </div>
+
+    <div class="bot-score">
+      <p class="k_bal_monitor" id="kball">0</p>
+    <img class="bot_img" width="30" height="30" src="./robot-solid.svg" alt="">
+  </div>
+    </div>
+    
+    <input class="monitor" id="searchInput" type="text" />
+    <div class="container">
+    <button class="start_btn" id="mic">
+      <img width="20px" src="./microphone-solid.svg" alt="">  
+    </button>
+    <button class="clear_btn" id="clear"><a class="clear_btn" href="https://pandadasturchi-soztop.netlify.app">Clear</a></button>
+    </div>
+    <ul class="royxat" id="list"></ul>
+    <script src="./amal.js"></script>
+  </body>
+</html>

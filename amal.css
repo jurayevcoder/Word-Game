@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    max-width: 500px;
+    margin: 20px auto;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.start_btn{
+    width: 100px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 50px;
+    background-color: blue;
+    color: #fff;
+}
+
+.clear_btn{
+    width: 100px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 50px;
+    background-color: blue;
+    color: black;
+    text-decoration: none;
+}
+
+.monitor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  auto;
+    border: 3px solid lightgray;
+    border-radius: 50px;
+    color: red;
+    margin-bottom: 0;
+    max-width: auto;
+    max-width: 700px;
+    font-size: 50px;
+    text-align: center;
+}
+.glavni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+    color: green;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.royxat{
+    margin: 50px auto;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    color: rgb(0, 8, 255);
+    margin-bottom: 0;
+    max-width: 1400px;
+    font-size: 15px;
+}
+
+.f_bal_monitor{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border: 3px solid lightgray;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.k_bal_monitor{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border: 3px solid lightgray;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bal_container{
+    display: flex;
+    max-width: 500px;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-score{
+    display: flex;
+ 
+}
+
+.user_img{
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.bot-score{
+display: flex;
+}
+
+.bot_img{
+    margin-top: 20px;
+    margin-left: 15px;
+}
